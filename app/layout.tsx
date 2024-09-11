@@ -12,11 +12,11 @@ const MainFont = Bricolage_Grotesque({ subsets: ["latin"], weight: ["400","500",
 const OswaldFont = Oswald({ subsets: ["latin"], weight: ["400","500","600"], variable: "--font-oswald"});
 const PixelFont = localFont({ src: "./fonts/pixelfont7.ttf",  variable: "--font-pixel",
   weight: "100 900",});
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
+/* // const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+}); */
 
 // MetaData
 export const metadata: Metadata = {
